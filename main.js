@@ -4,7 +4,7 @@ console.log(`Shorts To Watch Youtube v${version} \nMade With ❤️ By: Kevin\nF
 window.addEventListener('keydown', ({
 	key
 }) => {
-	if (key.toLowerCase() == '-') {
+	if (key.toLowerCase() == '-'  /* <- Set Your Own Keybind */) {
 
     if (location.hostname !== 'www.youtube.com') {
       alert('Invalid Youtube HREF')
